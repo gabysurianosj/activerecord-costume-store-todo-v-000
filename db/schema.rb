@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 3) do
 
   create_table "haunted_houses", force: :cascade do |t|
     t.string "name"
-    t.integer "price"
+    t.float "price"
     t.string "location"
     t.string "theme"
     t.boolean "family_friendly"
